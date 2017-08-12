@@ -1,3 +1,3 @@
 # lpCxxTips
 
-Cplusplus tips.
+Cplusplus tips from [A Tour of cxx].
