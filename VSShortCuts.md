@@ -5,3 +5,4 @@ ctrl + 方向键  ---按单词移动</br>
 ctrl + home/end ---跳转到文件第一行或者最末一行</br>
 alt + shift + home/end ---选中都行首或行尾</br>
 pageup / page down ---翻页</br>
+ctrl + F4 ---关闭当前Tab页 </br>
