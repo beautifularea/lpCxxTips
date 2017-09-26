@@ -1,10 +1,10 @@
-struct Data
-{
-	int i;
-	float j;
-};
+	struct Data
+	{
+            int i;
+	    float j;
+	};
   
-  std::list<Data*> list_;
+        std::list<Data*> list_;
 	Data* pData = new Data();
 	pData->i = 3;
 	pData->j = 4.4;
