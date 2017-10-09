@@ -1,4 +1,5 @@
 [From](http://blog.csdn.net/u013467442/article/details/46461853)
+[To](http://blog.csdn.net/x763795151/article/details/52124288)
 
 如果是重载双目操作符（即为类的成员函数），就只要设置一个参数作为右侧运算量，而左侧运算量就是对象本身。。。。。。
 
