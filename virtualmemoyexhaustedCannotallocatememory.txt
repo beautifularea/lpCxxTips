@@ -1,0 +1,10 @@
+virtualbox 安装了Ubuntu，make soci库的时候，报错soci_mysql_test.cpp Error，同时提示virtual memory exhausted: Cannot allocate memory，
+ccplus
+交换空间不足导致的问题：
+创建swap：
+sudo dd if=/dev/zero of=/swap bs=1024 count=1M    
+sudo mkswap /swap                                                 
+sudo swapon /swap                                                  
+[参考]
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/storage_administration_guide/ch-swapspace
+http://www.linuxidc.com/Linux/2013-05/84252.htm
